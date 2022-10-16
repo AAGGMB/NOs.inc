@@ -1,0 +1,178 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Impact ;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.logo-image{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.banner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(banner.png);
+    
+    height: 650px;
+    width: 1920px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.text{
+
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 55px;
+  font-family: Impact ;
+  
+
+}
+
+button{
+    font-family: var(--ff-primary);
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--clr-black);
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  font-weight: 700;
+  transition: var(--transition);
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+  font-size: 25px;
+  padding: 0.75rem 1.25rem;
+}
+
+button:hover{
+    background-color: gray; 
+  color: white;
+}
+
+.logo{
+    margin-left:  15px;
+}
+
+.WWR{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    font-family: Impact ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.wwrtxt{
+    margin-left: 100px;
+}
+
+.WAWD{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    font-family: Impact ;
+    background-color: rgb(244, 244, 244);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+
+.wawdtxt{
+    margin-left: 100px;
+}
+
+.OP{
+    margin-top: 40px;
+    margin-left: 500px ;
+    font-family: Impact ;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: normal;
+    font-family: Impact ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 200px;
+}
+
+.CU{
+    font-family: Impact ;
+    text-align: center;
+    background-color: rgb(172, 172, 172);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.logo2{
+    text-align: center;
+    font-family: Impact ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-family: Impact ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.waws{
+    margin-right: 20px;
+}
+
+
+
+
